@@ -22,7 +22,7 @@ export const AddWidgetForm = ({ onSuccess }: FormProps) => {
   const [mode, setMode] = useState<DisplayMode>("card");
 
   // Explorer
-  const [apiData, setApiData] = useState<unknown>(null);
+  const [apiData, setApiData] = useState<any>(null);
   const [selectedFields, setSelectedFields] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
